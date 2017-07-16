@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 tablespoons extra-virgin olive oil, plus more for serving"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:paddingTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8 ounces Spanish-style chorizo, cut into 1/2-inch dice"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 medium onion, thinly sliced (about 1 cup)"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 tablespoon smoked Spanish paprika"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 (15-ounce) cans chickpeas, drained and rinsed"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 (28-ounce) can diced tomatoes, preferably fire-roasted (such as Muir Glen)"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 whole chicken (about 4 pounds), cut into 8 serving pieces, or a mix of bone-in, skin-on breasts, drumsticks, and/or thighs"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 cups homemade or store-bought low-sodium chicken stock"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosher salt and freshly ground black pepper"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 teaspoons sherry vinegar"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chopped fresh parsley leaves, for serving"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Directions"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.  Heat oil in a pressure cooker over medium-high heat until shimmering. Add chorizo and cook, stirring, until just starting to crisp around the edges, about 2 minutes. Add onions and cook, stirring, until softened, about 3 minutes. Add paprika, chickpeas, tomatoes, chicken pieces, and broth. Season gently with salt and pepper."
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.  Seal pressure cooker and bring to high pressure. Cook for 15 minutes. Cool pressure cooker under a cold running tap (if using an electric cooker, use the quick release valve), and open. Return to high heat and cook, stirring gently, until it achieves a thick, stew-like consistency, about 5 minutes. Stir in vinegar and season to taste with salt and pepper. Stir in parsley and serve, drizzling with more extra-virgin olive oil at the table."
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        />
+
+    <Button
+        android:id="@+id/activity_dialog_okay"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/my_setting_check"
+        />
+
+
+</LinearLayout>

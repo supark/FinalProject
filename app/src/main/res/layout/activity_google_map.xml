@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.gsu.httpcs.finalproject.GoogleMapActivity"
+    android:weightSum="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/gradient5"
+    android:orientation="vertical"
+    >
+       >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GSU Restaurant"
+        android:layout_weight="0.17"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="30sp"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="$"
+        android:textSize="28sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/star_press"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/star_press"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/star_press"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/star_press"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        tools:layout="@layout/activity_maps"
+        ></fragment>
+<LinearLayout
+    android:id="@+id/go_to_map"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="33 Gilmer Street SE Atlanta GA"
+        android:textSize="23sp"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"/>
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/arrow_right"
+        android:layout_weight="1"/>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        />
+    <LinearLayout
+        android:id="@+id/make_call"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/phone_icon"
+            android:layout_marginLeft="11dp"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call (404) 413-2000"
+        android:textSize="23sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:paddingLeft="19dp"
+        android:background="@android:color/white"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/go_to_gsuWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/basic1_029_url_web_addres"
+
+            android:layout_weight="0.2"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gsu.edu"
+            android:textSize="23sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:layout_weight="0.8"/>
+        <ImageView
+
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/arrow_right"
+            android:layout_weight="0.1"
+            />
+    </LinearLayout>
+    <WebView
+        android:id="@+id/display_website"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"></WebView>
+</LinearLayout>

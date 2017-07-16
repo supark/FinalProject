@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.gsu.httpcs.finalproject.HandlerActivity"
+    android:background="@drawable/gradient2">
+
+    <RelativeLayout
+        android:id="@+id/activity_main_title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/go_back"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/back_normal"
+            />
+
+        <TextView
+    android:id="@+id/handler_display"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="Count Down"
+    android:textSize="40sp"
+    android:layout_centerInParent="true"
+    android:textColor="@color/colorPrimary"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    android:gravity="center"
+    />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/handler_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <ImageView
+        android:id="@+id/handler_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/chicken"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/handler_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It looks super yummy!"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+
+    <View
+        android:id="@+id/btn_background2"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:alpha="0.5"
+
+        />
+    <Button
+        android:id="@+id/see_recipe"
+        android:layout_centerInParent="true"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="See Recipe"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:visibility="invisible"
+
+        android:padding="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

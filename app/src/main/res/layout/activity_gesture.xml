@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.gsu.httpcs.finalproject.MainActivity"
+    android:background="@drawable/gradient2">
+
+    <Button
+        android:id="@+id/gesture_tv"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:text="Please Click me"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@drawable/round_button_bg"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gesture_tv"
+        android:text="If you're human"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_marginTop="170dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+</android.gesture.GestureOverlayView>

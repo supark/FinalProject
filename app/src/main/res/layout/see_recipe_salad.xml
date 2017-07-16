@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 1/2 pounds (700g) fresh fava bean pods"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:paddingTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosher salt"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 small carrots (about 4 ounces; 115g), with a small handful of their tenderest greens if available"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 tablespoons (30ml) extra-virgin olive oil, plus more for drizzling"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 tablespoon (15ml) fresh juice from 1 lemon, plus a large pinch of grated zest"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 small shallot (about 1 ounce; 30g), thinly sliced"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Freshly ground black pepper"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6 ounces (170g) high-quality ricotta cheese (see note above)"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 slices hearty toast"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Directions"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.  Open up fava bean pods and remove individual beans. Discard pods. Bring a medium pot of salted water to a boil and prepare an ice bath. Add fava beans to pot and cook until crisp-tender, about 1 minute. Transfer fava beans to ice bath and allow to chill for 1 minute. Carefully peel off and discard the outer skin from each bean."
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.  Scrub carrots under cold running water. Rinse greens (if using). Using a sharp knife, a vegetable peeler, or a mandoline, very thinly slice carrots on a strong bias. Transfer carrot slices to ice bath and set aside."
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.  In a large bowl, whisk together olive oil, lemon juice, and lemon zest. Add fava beans and shallot. Carefully dry carrots and greens (if using) and add to bowl. Toss to combine and season to taste with salt and pepper."
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        />
+
+    <Button
+        android:id="@+id/activity_dialog_okay"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/my_setting_check"
+        />
+
+
+</LinearLayout>
