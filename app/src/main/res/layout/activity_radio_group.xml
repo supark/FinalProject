@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="168dp"
         android:orientation="vertical"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="20dp"
         >
 
         <RadioButton
@@ -32,6 +32,7 @@
             android:text="Chicken"
             android:textSize="20sp"
             android:textColor="@android:color/holo_purple"
+            android:paddingLeft="5dp"
             />
 
         <RadioButton
@@ -41,6 +42,7 @@
             android:text="Salad"
             android:textSize="20sp"
             android:textColor="@android:color/holo_purple"
+            android:paddingLeft="5dp"
             />
 
 
